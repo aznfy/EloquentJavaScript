@@ -64,3 +64,65 @@ The other operators we saw all operated on two values, but typeof takes only one
 >console.log(- (10 - 2))
 
 >// → -8
+
+## Boolean Values
+
+>console.log(3 > 2)
+
+>// → true
+
+>console.log(3 < 2)
+
+>// → false
+
+>console.log(NaN == NaN)
+
+>// → false
+
+NaN is supposed to denote the result of a nonsensical computation, and as such, it isn’t equal to the result of any other nonsensical computations.
+
+## Logical Operators
+
+**&&** : and
+
+**||** : or
+
+**!** : not
+
+*ternary operator* :
+
+>console.log(true ? 1 : 2);
+
+>// → 1
+
+>console.log(false ? 1 : 2);
+
+>// → 2
+
+## Undefined Values
+
+**null** and **undefined**
+
+##　Automatic Type Conversion
+
+>console.log(8 * null)
+
+>// → 0
+
+>console.log("5" - 1)
+
+>// → 4
+
+>console.log("5" + 1)
+
+>// → 51
+
+>console.log("five" * 2)
+
+>// → NaN
+
+>console.log(false == 0)
+
+>// → true
+
+**===** and **!==** mean precisely equal.
